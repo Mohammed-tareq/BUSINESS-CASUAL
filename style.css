@@ -1,0 +1,618 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+header{
+    display: block;
+    text-align: center;
+}
+.head{
+    display: block;
+    text-align: center;
+    margin: 1%;
+    padding: 5px;
+}
+
+.head h2{
+    font-weight:bold;
+    color: rgb(243, 197, 111);
+    margin-bottom: 2px;
+}
+.head span{
+    font-size: 70px;
+    color: wheat;
+
+}
+nav {
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgba(47, 23, 15, 0.9);
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav a{
+    padding: 5px 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(126, 117, 102);
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: whitesmoke;
+}
+
+.home-1{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.home-1-img{
+    justify-content: space-around;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    position: absolute;
+
+
+}
+
+ .home-1-img img{
+    text-align: right;
+    width: 700px;
+    height: 400px;
+    margin: 5px 300px;
+    padding: 0px;
+    
+}
+.home-1-des{
+    position: relative;
+    display: block;
+    background-color: wheat;
+    text-align: center;
+    width: 400px;
+    margin: 150px 50px;
+    padding: 20px;
+}
+.home-1-des h4{
+    font-weight: bold;
+    margin: 10px;
+}
+.home-1-des span{
+    font-size: 30px;
+    color: rgb(59, 53, 44);
+
+}
+.home-1-des a{
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(172, 146, 99);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(73, 67, 55);
+}
+.home-1-des a:hover{
+    color: rgb(209, 195, 169);
+}
+
+.home-2{
+    background-color:  rgba(230, 167, 86, 0.9);
+    display: flex;
+    text-align: center;
+
+}
+.home-2-des{
+    background-color: aliceblue;
+    text-align: center;
+    justify-content: space-around;
+    display: block;
+    margin: 60px 300px;
+    
+}
+.home-2-des span{
+    font-size: 30px;
+    color: rgb(187, 170, 138);
+    margin: 5px;
+
+}
+.home-2-des p{
+    text-indent: 30px;
+}
+
+
+footer{
+    background-color: rgb(88, 38, 20);
+    text-align: center;
+}
+footer p{
+    color: wheat;
+    padding: 20px;
+}
+
+/* style 2 */
+
+header{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.head{
+    display: block;
+    text-align: center;
+    margin: 1%;
+    padding: 5px;
+}
+
+.head h2{
+    font-weight:bold;
+    color: rgb(243, 197, 111);
+    margin-bottom: 2px;
+}
+.head span{
+    font-size: 70px;
+    color: wheat;
+
+}
+nav {
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgba(47, 23, 15, 0.9);
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+   
+}
+
+nav a{
+    padding: 10px 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(126, 117, 102);
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: whitesmoke;
+}
+
+
+.about{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.about-img{
+    justify-content: space-around;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    position: absolute;
+
+}
+
+
+.about-img img{
+    text-align: right;
+    width: 800px;
+    height: 400px;
+    margin: 5px 230px;
+    padding: 0px;
+}
+
+.about-des{
+    position: relative;
+    display: block;
+    background-color: wheat;
+    text-align: center;
+    width: 600px;
+    margin: 410px 370px 20px;
+    padding: 20px;
+    float: right;
+    
+    
+}
+
+.about-des h4{
+    font-weight: bold;
+    margin: 10px;
+}
+.about-des span{
+    font-size: 30px;
+    color: rgb(59, 53, 44);
+}
+
+footer{
+    background-color: rgb(88, 38, 20);
+    text-align: center;
+}
+footer p{
+    color: wheat;
+    padding: 20px;
+}
+
+/* style 3 */
+header{
+    display: block;
+    text-align: center;
+}
+.head{
+    display: block;
+    text-align: center;
+    margin: 1%;
+    padding: 5px;
+}
+
+.head h2{
+    font-weight:bold;
+    color: rgb(243, 197, 111);
+    margin-bottom: 2px;
+}
+.head span{
+    font-size: 70px;
+    color: wheat;
+
+}
+nav {
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgba(47, 23, 15, 0.9);
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav a{
+    padding: 5px 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(126, 117, 102);
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: whitesmoke;
+}
+
+.pro-1{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+.pro-1-img{
+    justify-content: space-around;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    position: absolute;
+
+
+
+}
+
+ .pro-1-img img{
+    text-align: right;
+    width: 700px;
+    height: 400px;
+    margin: 5px 300px;
+    padding: 0px;
+    
+}
+.pro-1-des {
+    position: relative;
+    display: block;
+    background-color: wheat;
+    text-align: center;
+    width: 300px;
+    height: 130px;
+    margin: 20px 20px 20px 900px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.pro-1-des h4{
+    font-weight: bold;
+    margin: 20px;
+}
+.pro-1-des span{
+    font-size: 30px;
+    color: rgb(59, 53, 44);
+}
+
+.pro-1-pra{
+    position: relative;
+    display: block;
+    background-color: wheat;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    margin: 300px 20px 20px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.pro-2{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+.pro-2-img{
+    justify-content: space-around;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    position: absolute;
+
+
+
+}
+
+ .pro-2-img img{
+    text-align: right;
+    width: 700px;
+    height: 400px;
+    margin: 5px 300px;
+    padding: 0px;
+    
+}
+.pro-2-des {
+    position: relative;
+    display: block;
+    background-color: wheat;
+    text-align: center;
+    width: 300px;
+    height: 130px;
+    margin: 20px 100px 20px ;
+    padding: 5px;
+    border-radius: 5px;
+}
+.pro-2-des h4{
+    font-weight: bold;
+    margin: 20px;
+}
+.pro-2-des span{
+    font-size: 30px;
+    color: rgb(59, 53, 44);
+}
+
+.pro-2-pra{
+    position: relative;
+    display: block;
+    background-color: wheat;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    margin: 300px 20px 20px 600px ;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.pro-3{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+.pro-3-img{
+    justify-content: space-around;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    position: absolute;
+
+}
+
+ .pro-3-img img{
+    text-align: right;
+    width: 700px;
+    height: 400px;
+    margin: 5px 300px;
+    padding: 0px;
+    
+}
+.pro-3-des {
+    position: relative;
+    display: block;
+    background-color: wheat;
+    text-align: center;
+    width: 400px;
+    height: 110px;
+    margin: 20px 20px 20px 700px ;
+    padding: 5px;
+    border-radius: 5px;
+}
+.pro-3-des h4{
+    font-weight: bold;
+    margin: 20px;
+}
+.pro-3-des span{
+    font-size: 30px;
+    color: rgb(59, 53, 44);
+}
+
+.pro-3-pra{
+    position: relative;
+    display: block;
+    background-color: wheat;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    margin: 300px 20px 20px 20px ;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgb(88, 38, 20);
+    text-align: center;
+}
+footer p{
+    color: wheat;
+    padding: 20px;
+}
+/* style4 */
+header{
+    display: block;
+    text-align: center;
+}
+.head{
+    display: block;
+    text-align: center;
+    margin: 1%;
+    padding: 5px;
+}
+
+.head h2{
+    font-weight:bold;
+    color: rgb(243, 197, 111);
+    margin-bottom: 2px;
+}
+.head span{
+    font-size: 70px;
+    color: wheat;
+
+}
+nav {
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgba(47, 23, 15, 0.9);
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav a{
+    padding: 5px 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(126, 117, 102);
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: whitesmoke;
+}
+
+.store-1{
+    background-color:  rgba(230, 167, 86, 0.9);
+    display: flex;
+    text-align: center;
+
+}
+.store-1-des{
+    background-color: aliceblue;
+    text-align: center;
+    justify-content: space-around;
+    display: inline-block;
+    margin: 60px 250px 30px 380px;
+    width: 500px;
+    padding: 20px;
+    
+}
+.store-1-des h4{
+    margin: 5px;
+    padding: 5px;
+}
+.store-1-des span{
+    font-size: 30px;
+    color: rgb(187, 170, 138);
+    margin: 5px;
+
+}
+.store-1-des p{
+    text-align: center;
+
+}
+/* eroooooooooooooooooor */
+.table{
+    border:0px;
+    margin: 20px;
+    justify-content: center;
+    display:flex;
+}
+
+.table tr{
+    text-align: center;
+    padding: 30px;
+    margin: 5px 50px;
+    border-bottom: 2px black solid;
+}
+
+.table td{
+    text-align: center;
+    margin: 5px 5px ;
+    padding: 10px;
+    border-bottom: 2px black solid;
+    box-sizing: border-box;
+}
+
+.store-2{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.store-2-img{
+    justify-content: space-around;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    position: absolute;
+
+
+}
+
+ .store-2-img img{
+    text-align: right;
+    width: 800px;
+    height: 400px;
+    margin: 5px 100px 0px 200px;
+    padding: 0px;
+    
+}
+.store-2-des{
+    position: relative;
+    display: block;
+    background-color: wheat;
+    text-align: center;
+    width: 600px;
+    margin: 420px 100px 20px 350px ;
+    padding: 20px;
+}
+.store-2-des h4{
+    font-weight: bold;
+    margin: 10px;
+}
+.store-2-des span{
+    font-size: 30px;
+    color: rgb(59, 53, 44);
+
+}
+
+footer{
+    background-color: rgb(88, 38, 20);
+    text-align: center;
+}
+footer p{
+    color: wheat;
+    padding: 20px;
+}
